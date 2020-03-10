@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="bg-light">
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <div class="container">
+    <div class="py-5 text-center">
+      <h2>JavaScript Telephone Numbers</h2>
+      <p class="lead">
+        Welcome to the JavaScript Telephone Numbers exercise. In this excercise you will learn the basics of git, and
+        get a chance to exercise your knowledge of JavaScript.
+      </p>
+    </div>
+    <h3>Formatting a Telephone Number</h3>
+    <p>
+      For the purposes of this exercise, assume that we always want the telephone number in the form (xxx)xxx-xxxx
+    </p>
+    <p>
+      The first three inputs are already bound to the JavaScript using JQuery. Try pressing the format button next to
+      each input.
+    </p>
+    <div class="row">
+      <div class="col-3">
+        <input id="first-input" type="text" readonly value="1234567890" />
+      </div>
+      <div class="col-3">
+        <button id="first-button" type="button">Format</button>
+      </div>
+      <div class="col-6">
+        <span class="result" id="first-result"></span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <input id="second-input" type="text" readonly value="123abc34" />
+      </div>
+      <div class="col-3">
+        <button id="second-button" type="button">Format</button>
+      </div>
+      <div class="col-6">
+        <span class="result" id="second-result"></span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <input id="third-input" type="text" readonly value="456-454-1123" />
+      </div>
+      <div class="col-3">
+        <button id="third-button" type="button">Format</button>
+      </div>
+      <div class="col-6">
+        <span class="result" id="third-result"></span>
+      </div>
+    </div>
+    <p>Now try implementing this one yourself!</p>
+    <div class="row">
+      <div class="col-3">
+        <input id="custom-input" type="text" />
+      </div>
+      <div class="col-3">
+        <button id="custom-button" type="button">Format</button>
+      </div>
+      <div class="col-6">
+        <span id="custom-result"></span>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/vendor/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
